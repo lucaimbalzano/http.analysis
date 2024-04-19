@@ -1,0 +1,15 @@
+MYSQL_DB=digitiamo.db
+
+CREATE DATABASE IF NOT EXISTS $MYSQL_DB;
+
+USE $MYSQL_DB;
+
+CREATE TABLE book (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100),
+    author VARCHAR(100),
+    isbn VARCHAR(13) NOT NULL UNIQUE,
+    publicationYear INTEGER
+    
+);
+
