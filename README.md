@@ -21,18 +21,15 @@ Esempio di output:
 /api/HTTP/{METHOD}/{?json}
 ```
 {
-"status": 200,
-"errors": {},
-"data": {
-"url": {
-},
-"response":
-{
-},
-"request": {
+  "status": 200,
+  "errors": {},
+  "data": {
+    "url": {},
+    "response": {},
+    "request": {}
+  }
 }
-}
-}
+
 ```
 Almeno: Mid-level
 - Proteggi gli endpoints da attacchi CSRF
